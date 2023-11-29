@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>solomon</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <link rel="shortcut icon" href="life/bgj.jpg" type="image/x-icon">
+        <script src="https://kit.fontawesome.com/fd6d5daa5a.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="./life/logo.png" class="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#Home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fas fa-times" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fas fa-bars" onclick="openmenu()"></i>
+                    <!-- <label id="dark-change"></label> -->
+                </nav>
+                <div class="header-text">
+                    <p>UI/UX Designer</p>
+                    <h1>Hi, I'm <span>Solomon</span> <br> Form Nigeria</h1>
+                </div>
+            </div>
+        </div>
+                    <!-- --------about----------- -->
+
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="./life/qa.jpg" alt="">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>
+                            I'm a Designer and Degital Creative Director working in<br>
+                            design Hub for a year so far.specialized in html css <br>
+                            and javascript and digital designs
+                        </p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>UI/UX</span> <br>Designing Web Interfaces</li>
+                                <li><span>Web Development</span><br> Web App Interfaces</li>
+                                <li><span>Forex / Crypto Trader</span><br> Trading on crypto currency</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>Start my first Project</span><br>2023</li>
+                                <li><span>Working</span><br> Till Date</li>
+                                <li><span>tested / trusted.</span><br> I have build many projects</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2023</span><br> UI Design Training at Qurn Lab</li>
+                                <li><span>2023</span><br>Web Development Training at Qurn Lab</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- --------service----------- -->
+        <div id="services">
+            <div class="container">
+                <h1 class="sub-title">My Services</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Web Design</h2>
+                        <p>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            Sit, eligendi similique quas nam minus sint nesciunt, 
+                            eius aliquam sapiente vero ea quibusdam inventore, fugit 
+                            officiis itaque animi voluptatem a earum!
+                        </p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-crop-simple"></i>
+                        <h2>Graphic Design</h2>
+                        <p>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            Sit, eligendi similique quas nam minus sint nesciunt, 
+                            eius aliquam sapiente vero ea quibusdam inventore, fugit 
+                            officiis itaque animi voluptatem a earum!
+                        </p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fab fa-app-store"></i>
+                        <h2>Crypto trading</h2>
+                        <p>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            Sit, eligendi similique quas nam minus sint nesciunt, 
+                            eius aliquam sapiente vero ea quibusdam inventore, fugit 
+                            officiis itaque animi voluptatem a earum!
+                        </p>
+                        <a href="#">Learn more</a>
+                    </div>
+                </div>
+            </div>
+        </div> 
+
+        <!-- -------------------portfolio----------------- -->
+        <div id="portfolio">
+            <div class="container">
+                <h2 class="sub-title">My Work</h2>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="./life/project-6.jpg">
+                        <div class="layer">
+                            <h3>Graphic Design</h3>
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                Sit, eligendi similique. 
+                            </p>
+                            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="./life/project-4.jpg">
+                        <div class="layer">
+                            <h3>Trading</h3>
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                Sit, eligendi similique. 
+                            </p>
+                            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="./life/project-5.jpg">
+                        <div class="layer">
+                            <h3>Fontend Design</h3>
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                Sit, eligendi similique. 
+                            </p>
+                            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="btn">See more</a>
+            </div>
+        </div>
+        <!-- ===========================Skill========================= -->
+        <div class="skill-counter">
+            <h1>TECHNICAL <span>AND PROFESSIONAL</span></h1>
+            <div class="counters">
+                <div class="container">
+                    <div class="skill">
+                    </div>
+                    <div class="counterx">
+                        <h2>HTML</h2>
+                        <div class="counter html" data-target="95"><span>95</span></div>
+                    </div>
+        
+                    <div class="counterx">
+                        <h2>CSS</h2>
+                        <div class="counter css" data-target="75"><span>75</span></div>
+                    </div>
+        
+                    <div class="counterx">
+                        <h2>JAVASCRIPT</h2>
+                        <div class="counter javascript" data-target="64"><span>64</span></div>
+                    </div>
+                </div>
+                <div class="term-left">
+                    <div class="term">
+                        <marquee behavior="slow" direction="left">Time & Focus Makeit Great</marquee>
+                        <marquee behavior="slow" class="slow"  direction="left">We Work on, Web Developer, Forex Trader & Graphic Design</marquee>
+                        <marquee behavior="social-icons" class="up-move" direction="left">solomon is Gives Best Design</marquee>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ======================contact======================= -->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fas fa-paper-plane"></i><a href="https://mail.google.com/mail/u/0/?hl=en&tf=cm&fs=1&to=solomonekele112@gmail.com"></a>
+                            <a href="https://mail.google.com/mail/u/0/?hl=en&tf=cm&fs=1&to=solomonekele112@gmail.com" target="_blank" title="Send An Email">solomonekele112@gmail.com</a>
+                        </p>
+                        <p><i class="fas fa-phone-square-alt"></i><a href="https://wa.me/+2348143032920" target="_blank">08143032920</a></p>
+                        <div class="social-icons">
+                            <a href="https://www.facebook.com/NWACHUKWUSOLOMON701/" target="_blank" title="facebook"><i class="fab fa-facebook"></i></a>
+                            <a href="https://www.tiktok.com/@es_web_developer?is_from_webapp=1&sender_device=pc" target="_blank" title="tiktok"><i class="fab fa-tiktok"></i></a>
+                            <a href="https://www.instagram.com/ekelemon_solomon/" target="_blank" title="instagram"><i class="fab fa-instagram"></i></a>
+                            <a href="https://wa.me/+2348143032920" target="_blank" title="whatsapp"><i class="fab fa-whatsapp"></i></a>
+                        </div>
+                        <a href="life/pdf.pdf" download class="btn btn2">Download pdf</a>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                        <SPan id="msg"></SPan>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>copyright &copy; solomon. Made <i class="fas fa-heart"></i> by Easy Tutorials</p>
+            </div>
+        </div>
+        <marquee behavior="social-icons" class="" direction="left">You Are Welcome And We Say Thank You for Your Time And Is Pleasure Doing Business With You. GOD BLESS YOU</marquee>
+
+        <script src="app.js"></script>
+    </body>
+</html>
